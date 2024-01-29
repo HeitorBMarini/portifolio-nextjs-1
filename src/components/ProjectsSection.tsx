@@ -43,7 +43,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projetos
+        Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>
       </h1>
 

@@ -37,7 +37,7 @@ Systems Analyst{" "}
             offset={-100}
             duration={500}
           >
-            Projetos
+            Projects
           </Link>
         </div>
       </div>
