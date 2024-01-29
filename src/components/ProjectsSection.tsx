@@ -29,7 +29,7 @@ const projects = [
     link: "https://web-socket-react.vercel.app/",
   },
   {
-    name: "Kanbam Flow - React JS",
+    name: "Kanban Flow - React JS",
     description:
       "A project type Kambam for control your tasks",
     image: "/Kanbam.png",
