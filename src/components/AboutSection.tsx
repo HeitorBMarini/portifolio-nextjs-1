@@ -41,22 +41,22 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Heitor, and I am a{" "}
-              <span className="font-bold">self-motivated</span> systems analyst
+              Hi, my name is Heitor and I am a{" "}
+              <span className="font-bold">{" self-motivated"}</span> for systems analyst
               based in São Paulo, BR.
             </p>
             <br />
             <p>
-              I graduated from São Paulo State University, FIAP, in 2023 as a technologist,
-              with a degree in systems analysis, and have been working in the
-              field since mid-2023.
+              I graduated from São Paulo State University, FIAP in 2023 on technologist,
+              with a systems analyst and have been working in the
+              field since mid year 2023.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy,
-              from studying, playing video games, riding a motorcycle, and exploring the world.
+              I have a wide range of hobbies and passions that keep me busy.
+              From studyng, play videogames, ride a motorcycle and seacrh about the world,
               I am always seeking new experiences and love to keep myself
-              engaged in learning new things.
+              engaged and learning new things.
             </p>
             <br />
             <p>
@@ -64,12 +64,11 @@ const AboutSection = () => {
               <span className="font-bold text-sky-600">
                 never stop growing
               </span>{" "}
-              and that's what I strive to do. I have a passion for
+              and that&#39;s what I strive to do, I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
-              always open to new opportunities and how they can change my life 🚀
+              always open to new opportunities and how can change my life 🚀
             </p>
-
             <br/>
            
             
