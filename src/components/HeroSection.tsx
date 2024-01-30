@@ -13,9 +13,9 @@ const HeroSection = () => {
           <Image 
             src="/Heitor.jpg"
             alt=""
-            width={325}
-            height={325}
-            className="rounded-full shadow-2xl max-w-96 max-h-96"
+            width={295}
+            height={295}
+            className="rounded-full shadow-2xl max-w-72 max-h-72"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
