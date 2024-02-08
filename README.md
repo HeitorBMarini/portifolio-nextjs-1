@@ -8,4 +8,4 @@ Este é um projeto incrível criado com Next.js, Tailwind CSS e React.js!
 
 
 
-[Clique aqui para ver o projeto]([https://www.exemplo.com](https://portifolio-nextjs-1-7q6a.vercel.app/)https://portifolio-nextjs-1-7q6a.vercel.app/)
+[Clique aqui para ver o projeto]([(https://portifolio-nextjs-1-7q6a.vercel.app/)https://portifolio-nextjs-1-7q6a.vercel.app/](https://portifolio-nextjs-1-7q6a.vercel.app/)https://portifolio-nextjs-1-7q6a.vercel.app/)
