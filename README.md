@@ -7,4 +7,4 @@ Este é um projeto incrível criado com Next.js, Tailwind CSS e React.js!
 
 Clique no botão abaixo para acessar o projeto:
 
-[![Clique aqui para ver o projeto](https://img.shields.io/badge/Clique_aqui_para_ver_o_projeto-9cf?style=for-the-badge&logoColor=white)]([https://www.exemplo.com](https://portifolio-nextjs-1-7q6a.vercel.app/)https://portifolio-nextjs-1-7q6a.vercel.app/)
+[![Clique aqui para ver o projeto](https://img.shields.io/badge/Clique_aqui_para_ver_o_projeto-9cf?style=for-the-badge&logoColor=white)]([[https://www.exemplo.com])
