@@ -26,7 +26,7 @@ const HeroSection = () => {
               
 Systems Analyst{" "}
             </span>
-            based in São Paulo, Brazil. Working on <a href="https://www.sistemavanguard.com.br" target="_blank" className="font-semibold text-green-600">Sistema Vanguard</a> with Software develeoper
+            based in São Paulo, Brazil. Working with Software develeopement
           </p>
           <Link
             to="projects"
