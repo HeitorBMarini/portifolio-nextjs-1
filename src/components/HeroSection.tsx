@@ -26,7 +26,7 @@ const HeroSection = () => {
               
 Systems Analyst{" "}
             </span>
-            based in São Paulo, Brazil. Working with Software develeopement
+            based in São Paulo, Brazil. Working with Software developement
           </p>
           <Link
             to="projects"
