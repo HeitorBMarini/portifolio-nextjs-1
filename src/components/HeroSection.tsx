@@ -3,7 +3,8 @@ import React from "react"
 import Image from "next/image"
 
 import { HiArrowDown } from "react-icons/hi"
-import { Link } from "react-scroll/modules"
+import Link from "next/link"
+
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image 
-            src="/Heitor.jpg"
+            src="/foto-perfil.jpg"
             alt=""
             width={295}
             height={295}
