@@ -3,8 +3,7 @@ import React from "react"
 import Image from "next/image"
 
 import { HiArrowDown } from "react-icons/hi"
-import Link from "next/link"
-
+import { Link } from "react-scroll"
 
 const HeroSection = () => {
   return (
