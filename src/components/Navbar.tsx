@@ -2,7 +2,7 @@
 import React from "react"
 import { useState } from "react"
 import { Link } from "react-scroll/modules"
-import { usePathname } from "next/navigation"
+
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
@@ -60,25 +60,23 @@ export default function Navbar() {
               }`}
             >
               <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                {NAV_ITEMS.map((item, idx) => {
-                  return (
-                    <Link
-                      key={idx}
-                      to={item.page}
-                      className={
-                        "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
-                      }
-                      activeClass="active"
-                      spy={true}
-                      smooth={true}
-                      offset={-100}
-                      duration={500}
-                      onClick={() => setNavbar(!navbar)}
-                    >
-                      {item.label}
-                    </Link>
-                  )
-                })}
+              {NAV_ITEMS.map((item, idx) => {
+              return (
+                <Link
+                  key={idx}
+                  to={item.page}
+                  className="block lg:inline-block  px-2 py-2 rounded-md text-neutral-500 hover:bg-stone-500 hover:text-white dark:text-neutral-100 dark:hover:bg-stone-800"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  onClick={() => setNavbar(!navbar)}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
                 {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
