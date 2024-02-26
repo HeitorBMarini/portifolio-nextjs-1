@@ -6,6 +6,7 @@ import {
 
     AiOutlineInstagram,
   } from "react-icons/ai"
+import { BiLogoWhatsapp } from "react-icons/bi";
   
 
 export default function Header (){
@@ -45,6 +46,15 @@ export default function Header (){
                 size={30}
               />
             </a>
+
+            <a href="https://api.whatsapp.com/send/?phone=%2B5511999657980&text&app_absent=0" rel="noreferrer" target="_blank">
+          <BiLogoWhatsapp 
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-green-400 dark:text-green-400"
+                size={30}
+              />
+          
+            </a>
+  
           </div>
         </div>
       </footer>
