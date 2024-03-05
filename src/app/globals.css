@@ -8,7 +8,7 @@
     display: block;
     width: 0;
     height: 2px; /* Altura da linha sublinhada */
-    background: white; /* Usa a cor atual do texto com 'currentcolor'*/
+    background: currentColor; /* Usa a cor atual do texto com 'currentcolor'*/
     transition: width 0.3s ease-in-out; /* Animação suave */
     margin-top: 2px; /* Espaçamento entre o texto e a linha */
   }
@@ -17,3 +17,13 @@
   .link-hover-underline:focus::after { /* Certifique-se de incluir :focus para acessibilidade */
     width: 100%;
   }
+
+/* Media query para telas até 768px (um valor comum para dispositivos mobile) */
+@media (max-width: 768px) {
+  .link-hover-underline:hover::after,
+  .link-hover-underline:focus::after {
+    /* A largura da linha sublinhada é ajustada para se adequar ao texto também em dispositivos móveis */
+    /* Reduz a largura da linha sublinhada para não ocupar o espaço completo do botão */
+    width: calc(100% - 450px);
+  }
+}
