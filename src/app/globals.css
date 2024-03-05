@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Css para animação dos botões da NavBar */
+.link-hover-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; /* Altura da linha sublinhada */
+    background: currentcolor; /* Usa a cor atual do texto com 'currentcolor'*/
+    transition: width 0.3s ease-in-out; /* Animação suave */
+    margin-top: 2px; /* Espaçamento entre o texto e a linha */
+  }
+  
+  .link-hover-underline:hover::after,
+  .link-hover-underline:focus::after { /* Certifique-se de incluir :focus para acessibilidade */
+    width: 100%;
+  }

@@ -4,6 +4,7 @@ import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
+
 const projects = [
   {
     name: "GS-EyeCrop",
