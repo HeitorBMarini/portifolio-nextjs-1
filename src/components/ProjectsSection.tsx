@@ -7,16 +7,24 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Github-Profile",
+    description:
+      "Um Clone do perfil do github, onde conectado a sua api, pode pesquisar outros usuários",
+    image: "/githubProfile.png",
+    github: "https://github.com/HeitorBMarini/github-profile",
+    link: "https://github-profile-woad.vercel.app",
+  },
+  {
     name: "GS-EyeCrop",
     description:
-      "GS-EyeCrop is a mobile aplicattion that helps people with battle against food waste ",
+      "GS-EyeCrop é um app mobile que conectado ao ChatGPT, pode fazer análise por meio de imagens sobre uma plantação e dizer sobre sua sáude  ",
     image: "/eye crop.png",
     github: "https://github.com/HeitorBMarini/GS-Eyecrop",
     link: "https://github.com/HeitorBMarini/GS-Eyecrop",
   },
   {
     name: "Tailwind-Css Spotify",
-    description: "A Front-End project with the template of Spotify, made with Tailwind-css and next js",
+    description: "Um template inspirado no Spotify usando tailwind css e Next js",
     image: "/Spotify.png",
     github: "https://github.com/HeitorBMarini/Tailwind-Css-Spotify?tab=readme-ov-file",
     link: "https://tailwind-css-spotify-l9o9.vercel.app/",
@@ -44,7 +52,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Projetos
         <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>
       </h1>
 

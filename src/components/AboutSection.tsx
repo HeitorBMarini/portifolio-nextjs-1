@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const languages = [
   
-  { skill: "C#" },
+  
   { skill: "JavaScript" },
   { skill: "PHP" },
   { skill: "Node JS" },
@@ -31,43 +31,34 @@ const AboutSection = () => {
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
-          About Me!
+          Sobre Mim
           <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+             Venha me conhecer
             </h1>
             <p>
-              Hi, my name is Heitor and I am a{" "}
-              <span className="font-bold">{" self-motivated"}</span> for systems analyst
-              based in São Paulo, BR.
+              Olá meu nome é Heitor {" "}
+              <span className="font-bold">{" self-motivated"}</span> analista e desenvolvedor de sistemas
+              que vive em  São Paulo, BR.
             </p>
             <br />
             <p>
-              I graduated from São Paulo State University, FIAP in 2023 on technologist,
-              with a systems analyst and have been working in the
-              field since mid year 2023.
+             Formado no estado de  São Paulo na universidade , FIAP em Análise e desenvolvimento de sistemas.
             </p>
             <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From studyng, play videogames, ride a motorcycle and seacrh about the world,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
+            
             <br />
             <p>
-              I believe that you should{" "}
+             Acredito que quando você{" "}
               <span className="font-bold text-sky-600">
-                never stop growing
+                nunca desiste
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities and how can change my life 🚀
+              e&#39;s tem uma paixão por
+             tecnologia, muitas coisas podem mudar em suav vida e cada desafio, você evolui e descobre do que é capaz 🚀
             </p>
             <br/>
            

@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-1/2">
           <Image 
             src="/foto-perfil.jpg"
-            alt=""
+            alt="perfil"
             width={295}
             height={295}
             className="rounded-full shadow-2xl max-w-72 max-h-72"
@@ -24,9 +24,9 @@ const HeroSection = () => {
             I&#39;m a{" "}
             <span className="font-semibold text-sky-600">
               
-Systems Analyst{" "}
+Anallista e desenvolvedor de sistemas{" "}
             </span>
-            based in São Paulo, Brazil. Working with Software developement
+           Paulista, trabalhando com desenvolvimento de software.
           </p>
           <Link
             to="projects"
@@ -37,7 +37,7 @@ Systems Analyst{" "}
             offset={-100}
             duration={500}
           >
-            Projects
+            Projetos
           </Link>
         </div>
       </div>
