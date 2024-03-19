@@ -32,7 +32,7 @@ const projects = [
   {
     name: "WebSocket - React JS",
     description:
-      "A basic WebSocket project with React JS",
+      "Um básico projeto com web socket usando React Js",
     image: "/WebSocket.png",
     github: "https://github.com/HeitorBMarini/WebSocket-react",
     link: "https://web-socket-react.vercel.app/",
@@ -40,7 +40,7 @@ const projects = [
   {
     name: "Kanban Flow - React JS",
     description:
-      "A project type Kambam for control your tasks",
+      "Um projeto de controlaar tarefas",
     image: "/Kanbam.png",
     github: "https://github.com/HeitorBMarini/Reactjs-KanbamFlow?tab=readme-ov-file",
     link: "https://5n8cgr.csb.app",

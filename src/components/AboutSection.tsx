@@ -42,15 +42,14 @@ const AboutSection = () => {
             </h1>
             <p>
               Olá meu nome é Heitor {" "}
-              <span className="font-bold">{" self-motivated"}</span> analista e desenvolvedor de sistemas
+             sou analista e desenvolvedor de sistemas
               que vive em  São Paulo, BR.
             </p>
             <br />
             <p>
-             Formado no estado de  São Paulo na universidade , FIAP em Análise e desenvolvimento de sistemas.
+             Formado no estado de São Paulo na universidade FIAP em Análise e desenvolvimento de sistemas.
             </p>
-            <br />
-            
+           
             <br />
             <p>
              Acredito que quando você{" "}
@@ -65,7 +64,7 @@ const AboutSection = () => {
             
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">Tech Languages</h1>
+            <h1 className="text-2xl font-bold mb-6">Linguagens e Features</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {languages.map((item, idx) => {
                 return (

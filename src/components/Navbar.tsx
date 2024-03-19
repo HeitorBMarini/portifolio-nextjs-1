@@ -65,7 +65,7 @@ export default function Navbar() {
                 <Link
                   key={idx}
                   to={item.page}
-                  className="link-hover-underline block lg:inline-block cursor-pointer px-2 py-2 rounded-md text-neutral-400 hover:bg-stone-700 hover:text-white dark:text-neutral-100 dark:hover:bg-stone-800"
+                  className="link-hover-underline block lg:inline-block cursor-pointer px-2 py-2 rounded-md text-neutral-400 hover:bg-stone-300 hover:text-black dark:text-neutral-100 dark:hover:bg-stone-800"
                   activeClass="active"
                   spy={true}
                   smooth={true}

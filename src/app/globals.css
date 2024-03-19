@@ -8,7 +8,7 @@
     display: block;
     width: 0;
     height: 2px; /* Altura da linha sublinhada */
-    background: currentColor; /* Usa a cor atual do texto com 'currentcolor'*/
+    background: #0ea5e9; /* Usa a cor atual do texto com 'currentcolor'*/
     transition: width 0.3s ease-in-out; /* Animação suave */
     margin-top: 2px; /* Espaçamento entre o texto e a linha */
   }
