@@ -8,6 +8,7 @@ const languages = [
   { skill: "PHP" },
   { skill: "Node JS" },
   { skill: "Python" },
+  { skill: "Power BI " },
   { skill: "Jupyter Notebooks" },
   { skill: "Java" },
   { skill: "Flask" },
@@ -56,7 +57,7 @@ const AboutSection = () => {
               <span className="font-bold text-sky-600">
                 nunca desiste
               </span>{" "}
-              e&#39;s tem uma paixão por
+               tem uma paixão por
              tecnologia, muitas coisas podem mudar em suav vida e cada desafio, você evolui e descobre do que é capaz 🚀
             </p>
             <br/>
