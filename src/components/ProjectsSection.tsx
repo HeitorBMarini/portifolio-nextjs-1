@@ -30,17 +30,17 @@ const projects = [
     link: "https://tailwind-css-spotify-l9o9.vercel.app/",
   },
   {
-    name: "WebSocket - React JS",
+    name: "Busca Cep - Next js",
     description:
-      "Um básico projeto com web socket usando React Js",
-    image: "/WebSocket.png",
-    github: "https://github.com/HeitorBMarini/WebSocket-react",
-    link: "https://web-socket-react.vercel.app/",
+      "Um básico projeto com uma api onde inserindo um cep, ele da informações sobre ele",
+    image: "/Busca-cep.png",
+    github: "https://github.com/HeitorBMarini/busca-cep",
+    link: "https://busca-cep-steel.vercel.app",
   },
   {
     name: "Kanban Flow - React JS",
     description:
-      "Um projeto de controlaar tarefas",
+      "Um projeto de controlar tarefas",
     image: "/Kanbam.png",
     github: "https://github.com/HeitorBMarini/Reactjs-KanbamFlow?tab=readme-ov-file",
     link: "https://5n8cgr.csb.app",
