@@ -30,13 +30,13 @@ const languages = [
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-48">
+      <div className="my-12 pb-12 md:pt-16 md:pb-48 animate-slideUpCubiBezier animation-delay-2">
         <h1 className="text-center font-bold text-4xl">
           Sobre Mim
           <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>
         </h1>
 
-        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+        <div className="flex  flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
              Venha me conhecer
@@ -51,6 +51,8 @@ const AboutSection = () => {
              Formado no estado de São Paulo na universidade FIAP em Análise e desenvolvimento de sistemas.
             </p>
            
+            <br />
+            <p> Com experiência ampla em desenvolvimento Web envolvendo Html, Css, Java Script, React Js, Next Js, React Native.</p>
             <br />
             <p>
              Acredito que quando você{" "}
@@ -71,7 +73,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-slate-500 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-slate-500 rounded font-semibold hover:bg-sky-500 hover:text-black"
                   >
                     {item.skill}
                   </p>
